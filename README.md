@@ -1,23 +1,17 @@
 # Autonomous MLOps Agent
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python"/>
-&#x20; \<img src="[https://img.shields.io/badge/Qwen3-6E56CF?style=for-the-badge&logoColor=white](https://img.shields.io/badge/Qwen3-6E56CF?style=for-the-badge\&logoColor=white)" alt="Qwen3"/>
-&#x20; \<img src="[https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white](https://img.shields.io/badge/Ollama-000000?style=for-the-badge\&logo=ollama\&logoColor=white)" alt="Ollama"/>
-&#x20; \<img src="[https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge\&logo=langchain\&logoColor=white)" alt="LangChain"/>
-&#x20; \<img src="[https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white)" alt="Scikit-learn"/>
-&#x20; \<img src="[https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge\&logo=mlflow\&logoColor=white)" alt="MLflow"/>
-&#x20; \<img src="[https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)" alt="Pandas"/>
-&#x20; \<img src="[https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)" alt="NumPy"/>
-\</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Qwen3](https://img.shields.io/badge/Qwen3-6E56CF?style=for-the-badge&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-\<p align="center">
-&#x20; \<strong>AI-Powered Automation for End-to-End Machine Learning and MLOps Workflows\</strong>
-\</p>
+**AI-Powered Automation for End-to-End Machine Learning and MLOps Workflows**
 
-\<p align="center">
-&#x20; \<em>From Traditional Machine Learning to Autonomous MLOps Engineering.\</em>
-\</p>
+*Part of the Chandan-AIOps Modular MLOps Initiative*
 
 ---
 
@@ -25,91 +19,65 @@
 
 The **Autonomous MLOps Agent** is an AI-powered application designed to automate key stages of the Machine Learning lifecycle using **Qwen3, LangChain, Ollama, and Python**.
 
-The primary objective is to develop an intelligent agent capable of executing end-to-end MLOps workflows through natural-language instructions, reducing the need for manual execution of individual machine learning scripts.
+The primary objective is to develop an intelligent agent that executes end-to-end MLOps workflows through natural-language instructions, reducing the need for manually running individual machine learning scripts.
 
-By integrating Large Language Models (LLMs) with LangChain tool calling, the agent interprets user instructions, identifies the required operations, and executes corresponding machine learning tasks through predefined and reusable Python tools.
+By integrating a locally hosted Large Language Model (LLM) with LangChain agent orchestration and tool calling, the system interprets user instructions, selects appropriate tools, and executes predefined machine learning operations.
 
-Users can interact with the agent to perform data inspection, preprocessing, model training, evaluation, model selection, and experiment tracking through a conversational interface.
+Users can interact with the agent to perform data inspection, preprocessing, model training, evaluation, model selection, experiment tracking, and artifact management.
 
 ## 2. Project Objectives
 
-The project focuses on the following objectives:
+The project focuses on the following capabilities:
 
-1. **Automated Data Ingestion:** Load datasets from predefined sources, validate data availability, and perform initial data inspection.
-
-2. **Automated Data Preprocessing:** Identify and handle missing values, process categorical variables, detect data inconsistencies, and prepare datasets for model training.
-
-3. **Automated Model Training:** Execute multiple machine learning algorithms based on user instructions and configured training workflows.
-
-4. **Automated Model Evaluation:** Evaluate trained models using standard regression performance metrics, including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score.
-
-5. **Intelligent Model Selection:** Compare model performance and identify the best-performing model based on selected evaluation criteria.
-
-6. **Experiment Tracking:** Integrate MLflow to track model parameters, evaluation metrics, experiment runs, and model artifacts.
-
-7. **AI-Driven Workflow Execution:** Leverage Qwen3 and LangChain tool calling to interpret natural-language commands and execute the appropriate MLOps operations.
+1. **Automated Data Ingestion:** Load datasets, validate data availability, and perform initial data inspection.
+2. **Automated Data Preprocessing:** Handle missing values, encode categorical variables, and prepare datasets for model training.
+3. **Automated Model Training:** Train and compare multiple machine learning algorithms.
+4. **Automated Model Evaluation:** Evaluate model performance using MAE, RMSE, and R² Score.
+5. **Intelligent Model Selection:** Compare evaluation metrics and identify the best-performing model.
+6. **Experiment Tracking:** Integrate MLflow to track parameters, metrics, experiment runs, and model artifacts.
+7. **AI-Driven Workflow Execution:** Use Qwen3 and LangChain tool calling to execute MLOps operations through natural-language commands.
 
 ## 3. Technology Stack
 
-\<p align="center">
-&#x20; \<img src="[https://skillicons.dev/icons?i=python,sklearn,fastapi,git,github](https://skillicons.dev/icons?i=python,sklearn,fastapi,git,github)" alt="Development Technologies"/>
-\</p>
-
-| Technology   | Purpose                                  |
-| ------------ | ---------------------------------------- |
-| Python       | Core programming language                |
-| Qwen3 1.7B   | Local Large Language Model               |
-| Ollama       | Local LLM inference and model serving    |
-| LangChain    | Agent orchestration and tool calling     |
-| Scikit-learn | Machine Learning algorithms              |
-| Pandas       | Data manipulation and preprocessing      |
-| NumPy        | Numerical computing                      |
-| MLflow       | Experiment tracking and model management |
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Qwen3 1.7B | Locally hosted Large Language Model |
+| Ollama | Local LLM runtime and inference |
+| LangChain | Agent orchestration and tool calling |
+| Scikit-learn | Machine Learning algorithms and evaluation |
+| Pandas | Data manipulation and preprocessing |
+| NumPy | Numerical computing |
+| MLflow | Experiment tracking and model management |
 
 ## 4. System Architecture
 
-The Autonomous MLOps Agent is designed around an AI-driven orchestration architecture.
-
-The Qwen3 language model interprets user instructions, while the LangChain agent selects and executes the appropriate Python tools to perform individual MLOps operations.
-
-### Workflow Diagram
+The agent follows a tool-driven architecture in which the LLM interprets user instructions and delegates operations to predefined Python tools.
 
 ```mermaid
 flowchart TD
-    A["User Natural Language Instruction"] --> B["Qwen3 LLM via Ollama"]
+    A["User Instructions"] --> B["Qwen3 via Ollama"]
     B --> C["LangChain Agent"]
     C --> D["Tool Selection and Execution"]
     D --> E["Data Ingestion"]
     E --> F["Data Preprocessing"]
     F --> G["Model Training"]
     G --> H["Model Evaluation"]
-    H --> I["Intelligent Model Selection"]
-    I --> J["MLflow Experiment Tracking"]
-    J --> K["Model Artifacts and Results"]
-    K --> L["Agent Response to User"]
+    H --> I["Model Selection"]
+    I --> J["MLflow Tracking"]
+    J --> K["Model Artifacts"]
+    K --> L["Agent Response"]
 ```
-
-### Core Workflow Components
-
-- **LLM Layer:** Qwen3 interprets natural-language instructions.
-- **Agent Layer:** LangChain manages reasoning, tool selection, and execution.
-- **Execution Layer:** Python modules perform machine learning operations.
-- **Tracking Layer:** MLflow records experiments, parameters, metrics, and artifacts.
-- **Output Layer:** The agent communicates execution results to the user.
 
 ## 5. Environment Configuration
 
-The project uses **Ollama** to run Qwen3 locally and connect the language model with LangChain through an OpenAI-compatible API endpoint.
-
-### Step 1: Install Ollama
+### 5.1 Install Ollama
 
 Download and install Ollama:
 
-[https://ollama.com/download](https://ollama.com/download)
+https://ollama.com/download
 
-### Step 2: Download the Qwen3 Model
-
-Execute the following command:
+Pull the Qwen3 model:
 
 ```bash
 ollama pull qwen3:1.7b
@@ -121,9 +89,9 @@ Verify the installed model:
 ollama list
 ```
 
-### Step 3: Configure Environment Variables
+### 5.2 Configure Environment Variables
 
-Create a `.env` file in the root directory of the project.
+Create a `.env` file in the project root:
 
 ```env
 BASE_URL=http://localhost:11434/v1
@@ -131,21 +99,19 @@ API_KEY=ollama
 MODEL=qwen3:1.7b
 ```
 
-### Environment Variable Details
+| Variable | Description |
+|---|---|
+| `BASE_URL` | Ollama OpenAI-compatible API endpoint |
+| `API_KEY` | Local client authentication placeholder |
+| `MODEL` | Qwen3 model identifier |
 
-| Variable   | Description                                             |
-| ---------- | ------------------------------------------------------- |
-| `BASE_URL` | Local Ollama OpenAI-compatible API endpoint             |
-| `API_KEY`  | Local API authentication placeholder used by the client |
-| `MODEL`    | Qwen3 1.7B model identifier                             |
-
-**Important:** The API key value `ollama` is a local client placeholder, not a cloud API secret. Ensure Ollama is running before executing the agent.
-
-To start the Ollama server:
+Start the Ollama server:
 
 ```bash
 ollama serve
 ```
+
+**Note:** The `API_KEY=ollama` value is a local placeholder for OpenAI-compatible client configuration. It is not a cloud API credential.
 
 ## 6. Installation and Setup
 
@@ -159,13 +125,11 @@ cd Autonomous-MLOps-Agent
 
 ### Step 2: Create a Virtual Environment
 
-This project uses `uv` for Python environment and dependency management.
-
 ```bash
 uv venv
 ```
 
-Activate the virtual environment on Windows:
+Activate the environment on Windows:
 
 ```bash
 .venv\Scripts\activate
@@ -177,95 +141,91 @@ Activate the virtual environment on Windows:
 uv add langchain langchain-openai langchain-core python-dotenv pandas numpy scikit-learn mlflow
 ```
 
-### Step 4: Configure Environment Variables
+### Step 4: Configure the Environment
 
-Create the `.env` file in the project root and add the Ollama configuration.
+Create the `.env` file and add the Ollama configuration described in Section 5.
 
 ### Step 5: Run the Application
 
-Execute the application using its configured Python entry point once the agent implementation is complete.
+Run the Python entry-point script configured for the agent:
 
-## 7. Expected Outcome
+```bash
+python main.py
+```
 
-The expected outcome is a lightweight, AI-driven MLOps system that demonstrates how Large Language Models and intelligent agents can simplify and automate traditional machine learning workflows.
+## 7. Expected Outcomes
 
-The project aims to bridge the gap between conventional Machine Learning development and modern AI Engineering by introducing natural-language-driven workflow orchestration.
+The project demonstrates how locally hosted LLMs and AI agents can simplify traditional Machine Learning and MLOps workflows.
 
-Key expected capabilities include:
+The expected capabilities include:
 
-- Natural-language interaction with Machine Learning workflows.
+- Natural-language interaction with machine learning workflows.
 - Automated execution of predefined ML operations.
 - Modular and reusable Python components.
-- Automated model training and performance evaluation.
+- Automated model training and evaluation.
+- Performance-based model comparison and selection.
 - MLflow-based experiment tracking.
-- Local LLM integration without requiring paid cloud LLM APIs.
+- Local LLM inference without relying on paid cloud LLM APIs.
 
 ## 8. Chandan-AIOps: Modular MLOps Initiative
 
-**Chandan-AIOps** is an initiative focused on developing modular, reusable, scalable, and AI-driven solutions for Machine Learning Operations.
+**Chandan-AIOps** is an initiative focused on building modular, reusable, and AI-driven solutions for Machine Learning Operations.
 
-The vision is to simplify the Machine Learning lifecycle by breaking complex MLOps processes into independent, reusable components that can be integrated into automated workflows.
+The vision is to simplify the Machine Learning lifecycle by developing independent engineering components that can be integrated into automated workflows.
 
-The Autonomous MLOps Agent contributes to this initiative by introducing an LLM-powered orchestration layer that connects different ML pipeline operations through natural-language interaction.
+The Autonomous MLOps Agent contributes an LLM-powered orchestration layer that connects different ML pipeline operations through natural-language interaction.
 
 ### Modular MLOps Ecosystem
 
-| Module                 | Responsibilities                                               |
-| ---------------------- | -------------------------------------------------------------- |
-| Data Engineering       | Data ingestion, validation, and preprocessing                  |
-| Model Engineering      | Model development, training, and evaluation                    |
-| Experiment Management  | Experiment tracking and performance comparison                 |
-| Model Management       | Model selection, serialization, and artifact management        |
-| AI Orchestration       | Intelligent automation using LLMs and agent-based tool calling |
-| Deployment Engineering | Model serving, API integration, and containerization           |
-
-### Chandan-AIOps Vision
+| Module | Responsibilities |
+|---|---|
+| Data Engineering | Data ingestion, validation, and preprocessing |
+| Model Engineering | Model development, training, and evaluation |
+| Experiment Management | Experiment tracking and performance comparison |
+| Model Management | Model selection, serialization, and artifact management |
+| AI Orchestration | LLM-based automation and agent tool calling |
+| Deployment Engineering | Model serving, API integration, and containerization |
 
 > **Chandan-AIOps — Building modular, intelligent, and automated MLOps solutions for the next generation of AI Engineering.**
 
-The broader initiative aims to bring together traditional Machine Learning, MLOps engineering, and Agentic AI into a unified ecosystem.
-
 ## 9. Repository Highlights
 
-- Local LLM integration using Qwen3 and Ollama.
-- Natural-language-driven ML operations.
+- Qwen3 and Ollama local LLM integration.
 - LangChain-powered agent orchestration.
-- Modular Python-based architecture.
+- Natural-language-driven MLOps operations.
+- Modular Python architecture.
 - Automated model training and evaluation.
-- MLflow-based experiment tracking.
+- MLflow experiment tracking.
 - Reusable MLOps components.
-- Reduced manual intervention in ML workflows.
 
 ## 10. Future Enhancements
 
-The project can be extended with the following capabilities:
-
-- Streamlit-based interactive user interface.
-- Support for additional ML algorithms and AutoML frameworks.
+- Streamlit-based interactive interface.
+- Integration of additional ML algorithms and AutoML frameworks.
 - Automated hyperparameter optimization.
-- Advanced experiment comparison and visualization.
+- Advanced experiment visualization.
 - Model versioning and registry integration.
-- Automated model deployment using FastAPI.
-- Docker-based application containerization.
-- CI/CD integration for ML pipelines.
+- FastAPI-based model deployment.
+- Docker containerization.
+- CI/CD pipeline integration.
 - Agent memory and multi-agent orchestration.
 
 ## 11. Project Information
 
-| Attribute            | Details                           |
-| -------------------- | --------------------------------- |
-| Project Name         | Autonomous MLOps Agent            |
-| Parent Initiative    | Chandan-AIOps                     |
-| Programming Language | Python                            |
-| LLM                  | Qwen3 1.7B                        |
-| LLM Runtime          | Ollama                            |
-| Agent Framework      | LangChain                         |
-| ML Framework         | Scikit-learn                      |
-| Experiment Tracking  | MLflow                            |
-| API Integration      | OpenAI-compatible Ollama endpoint |
+| Attribute | Details |
+|---|---|
+| Project Name | Autonomous MLOps Agent |
+| Initiative | Chandan-AIOps |
+| Programming Language | Python |
+| LLM | Qwen3 1.7B |
+| LLM Runtime | Ollama |
+| Agent Framework | LangChain |
+| ML Framework | Scikit-learn |
+| Experiment Tracking | MLflow |
+| API Integration | Ollama OpenAI-compatible endpoint |
 
 ---
 
-\<p align="center">   \<strong>Developed as part of the Chandan-AIOps Initiative\</strong> \</p>
+**Developed as part of the Chandan-AIOps Initiative**
 
-\<p align="center">   \<em>Beyond Machine Learning: Building Intelligent and Autonomous MLOps Solutions.\</em> \</p>
+*Beyond Machine Learning: Building Intelligent and Autonomous MLOps Solutions.*
