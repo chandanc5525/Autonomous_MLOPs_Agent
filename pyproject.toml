@@ -1,0 +1,21 @@
+
+[project]
+name = "autonomous-mlops-agent"
+version = "1.0.0"
+description = "AI-powered autonomous MLOps agent using Qwen3 and LangChain"
+requires-python = ">=3.12"
+authors = [
+    { name = "Chandan Chaudhari" }
+]
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langchain-core",
+    "python-dotenv",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "mlflow",
+    "chandan-aiops",
+    "fastapi",
+]
